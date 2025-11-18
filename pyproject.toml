@@ -1,0 +1,18 @@
+[project]
+name = "sapless"
+version = "0.0.0"
+description = "Modern Python library for SAP protocol dissection and SAP file parsing."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest", "mypy", "ruff", "pre-commit"]
+
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
+
